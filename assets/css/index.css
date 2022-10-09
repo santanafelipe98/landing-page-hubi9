@@ -1,0 +1,198 @@
+.splide {
+    padding: 0;
+}
+
+.solution-slide {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.solution-slide h1,
+.solution-slide p {
+    color: #fff;
+    text-align: center;
+    max-width: 700px;
+}
+
+.slide-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.slide-text {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+#slide_inicial {
+    background-image: linear-gradient(rgba(29, 29, 36, 0.85), rgba(29, 29, 36, 0.85)), url("../images/banner01.jpg");
+    background-position: 0 0,50% 50%;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+
+#slide_consulta_veicular {
+    background-image: linear-gradient(rgba(29, 29, 36, 0.85), rgba(29, 29, 36, 0.85)), url("../images/consulta_veicular_fh.jpg");
+    background-position: 0 0,50% 50%;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+
+#slide_analise_de_credito {
+    background-image: linear-gradient(rgba(29, 29, 36, 0.85), rgba(29, 29, 36, 0.85)), url("../images/banner02.jpg");
+    background-position: 0 0,50% 50%;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+
+#slide_recuperacao_de_recebiveis,
+#servico_recuperacao_de_recebiveis .service-img {
+    background-image: linear-gradient(rgba(29, 29, 36, 0.85), rgba(29, 29, 36, 0.85)), url("../images/banner03.jpg");
+    background-position: 0 0,50% 50%;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+
+#slide_protesto_de_titulos,
+#servico_protesto_de_titulos .service-img {
+    background-image: linear-gradient(rgba(29, 29, 36, 0.85), rgba(29, 29, 36, 0.85)), url("../images/protesto_de_titulos.jpg");
+    background-position: 0 0,50% 50%;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+
+#slide_solucoes_de_pagamento,
+#servico_solucoes_de_pagamento .service-img {
+    background-image: linear-gradient(rgba(29, 29, 36, 0.85), rgba(29, 29, 36, 0.85)), url("../images/banner05.jpg");
+    background-position: 0 0,50% 50%;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+
+#servicos {
+    background: #111111;
+    padding: 0;
+}
+
+#servicos .section-title {
+    margin-bottom: 0;
+}
+
+#quem_somos .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quem_somos .section-description {
+    width: 70%;
+}
+
+#quem_somos video {
+    width: 100%;
+}
+
+#nossos_clientes .section-title {
+    background: none;
+    color: var(--primary-color);
+}
+
+#faq {
+    background-image: linear-gradient(rgba(29, 29, 36, 0.85), rgba(29, 29, 36, 0.85)), url("../images/faq.webp");
+    background-position: 0 0,50% 50%;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+
+#slider_clientes img {
+    width: 100px;
+}
+
+#servico_consulta_veicular .service-img {
+    background-image: linear-gradient(rgba(29, 29, 36, 0.85), rgba(29, 29, 36, 0.85)), url("../images/consulta_veicular_fh.jpg");
+    background-position: 0 0,50% 50%;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+
+#servico_analise_de_credito .service-img {
+    background-image: linear-gradient(rgba(29, 29, 36, 0.85), rgba(29, 29, 36, 0.85)), url("../images/banner02.jpg");
+    background-position: 0 0,50% 50%;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+
+.service-section {
+    display: flex;
+}
+
+.service-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.benefits .service-title {
+    text-align: left;
+    color: #fff;
+}
+
+.benefits-list {
+    list-style-type: none;
+    padding: 30px;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    transition: border-color .3s ease, transform .3s ease;
+}
+
+.benefits-list:hover {
+    border-color: var(--secondary-color);
+    transform: translateY(-10px);
+}
+
+.benefit-item {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.check {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 25px;
+    color: var(--secondary-color);
+}
+
+.benefit-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.service-section .left-content,
+.service-section .right-content {
+    width: 50%;
+    flex-shrink: 0;
+    min-height: 400px;
+}
